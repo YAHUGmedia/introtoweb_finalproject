@@ -1,0 +1,44 @@
+html, body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+main {
+    position: absolute;
+    width: 80%;
+    margin: 0 5%;
+    padding: 150px 0px;
+}
+
+section {
+    width: 30%;
+}
+
+h1 {
+    color: #ff6a5f;
+    font-size: 72pt;
+    font-weight: 900;
+    text-shadow: 3px 3px #ffffff;
+}
+
+a:link {
+    color: #5fff5f;
+}
+
+a:visited {
+    color: #5f77ff;
+}
+
+a:hover {
+    color: #fffc5f;
+}
